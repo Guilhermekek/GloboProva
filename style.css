@@ -1,0 +1,161 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.div-header {
+    width: 100%;
+}
+
+.header-topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+    height: 48px;
+    padding: 0 20px;
+}
+
+.list-produtos-globo {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.item-link a {
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.item-link a:hover {
+    text-decoration: underline;
+}
+
+.link-assine {
+    color: #c4170c;
+    margin-right: 20px;
+}
+
+.button-area-usuario {
+    display: flex;
+    align-items: center;                                                                
+}
+
+.svg-icon {
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+}
+
+.conta-globo {
+    font-size: 14px;
+}
+
+.header-navegacao {
+    background-color: #c4170c;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.header-navegacao-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.header-title {
+    font-size: 24px;
+    flex: 1;
+    text-align: center;
+    margin: 0;
+}
+
+.header-title a {
+    color: white;
+    text-decoration: none;
+}
+
+.search-area {
+    position: relative;
+}
+
+.search-area input {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+.menu-area {
+    display: flex;
+    align-items: center;
+}
+
+.menu-button {
+    display: flex;
+    align-items: center;
+}
+
+.burger {
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+    position: relative;
+}
+
+.burger:before, .burger:after {
+    content: '';
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+}
+
+.burger:before {
+    top: -6px;
+}
+
+.burger:after {
+    bottom: -6px;
+}
+
+.menu-label {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.menu-divisor {
+    width: 1px;
+    height: 28px;
+    background-color: #fff;
+    margin: 0 10px;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+}
+
+.logo svg {
+    width: 34px;
+    height: 34px;
+}
+
+.header-title-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
